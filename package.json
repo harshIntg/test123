@@ -4,6 +4,7 @@
     "jquery": "^3.7.1"
   },
   "scripts": {
+    "build": "sass --quiet-deps src/scss/style.scss src/css/style.min.css",
     "watch": "sass src/scss/style.scss src/css/style.min.css -w --style compressed"
   },
   "devDependencies": {

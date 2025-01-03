@@ -1,0 +1,45 @@
+$primary: #55aaf5;
+$secondary: #b077ff;
+$success: #14ff63;
+$info: #ff961d;
+$warning: #ffee00;
+$danger: #ef1616;
+$light: #ffffff;
+$dark: #1e1d1d;
+
+$font-family-monospace: "Playwrite IE Guides", serif;
+$font-family-sans-serif: "Inter", serif;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 6,
+  8: $spacer * 7.5,
+  9: $spacer * 9,
+  10: $spacer * 10,
+);
+
+$utilities: (
+  "opacity": (
+    property: opacity,
+    values: (
+      0: 0,
+      1: 0.1,
+      2: 0.2,
+      3: 0.3,
+      4: 0.4,
+      5: 0.5,
+      6: 0.6,
+      7: 0.7,
+      8: 0.8,
+      9: 0.9,
+      10: 1,
+    ),
+  ),
+);
