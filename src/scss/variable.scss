@@ -1,13 +1,14 @@
 $primary: #55aaf5;
-$secondary: #b077ff;
-$success: #14ff63;
-$info: #ff961d;
-$warning: #ffee00;
-$danger: #ef1616;
+$secondary: #a5a5a5;
+$success: #43b75d;
+$info: #0095ff;
+$warning: #ffaa00;
+$danger: #ee443f;
 $light: #ffffff;
-$dark: #1e1d1d;
+$dark: #3b3b3b;
+$black: #000000;
+$default: #4e61f6;
 
-$font-family-monospace: "Playwrite IE Guides", serif;
 $font-family-sans-serif: "Inter", serif;
 
 $spacer: 1rem;
@@ -42,4 +43,21 @@ $utilities: (
       10: 1,
     ),
   ),
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1100px,
+  xl: 1350px,
+  xxl: 1500px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1100px,
+  xxl: 1220px,
 );
